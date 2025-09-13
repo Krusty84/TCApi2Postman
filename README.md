@@ -33,7 +33,7 @@ Developers, QA engineers, Presales, etc. working with Teamcenter REST APIs
 - initenv
 - npm run genSoaApi
 - cd ...aws2\stage\out\soa\api
-- 
+
 Run TCApi2Postman: Use the command below to convert your API docs to a Postman collection.  
 **java -jar** **TCApi2Postman** <structure.js> <out.postman_collection.json> [--include-internal] [--config <TCApi2Postman.config>]
 
