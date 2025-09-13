@@ -81,10 +81,10 @@ It mirrors Teamcenter JsonRestServices:
                             "   ║        TCApi2Postman       ║\n" +
                             "   ╚════════════════════════════╝ \n" +
                             "====================================\n" +
-                            "Usage: java TCApi2Postman <structure.js from \"...\\aws2\\stage\\out\\soa\\api\"> <out.postman_collection.json> [--include-internal] [--config <TCApi2Postman.config>]\n" +
+                            "Usage: java -jar TCApi2Postman <structure.js from \"...\\aws2\\stage\\out\\soa\\api\"> <out.postman_collection.json> [--include-internal] [--config <TCApi2Postman.config>]\n" +
                             "\n" +
                             "Example:\n" +
-                            "  java TCApi2Postman C:\\Siemens\\Teamcenter\\13\\aws2\\stage\\out\\soa\\api\\structure.js D:\\Temp\\TcApi_collection.json --config TCApi2Postman.config\n" +
+                            "  java -jar TCApi2Postman C:\\Siemens\\Teamcenter\\13\\aws2\\stage\\out\\soa\\api\\structure.js D:\\Temp\\TcApi_collection.json --config TCApi2Postman.config\n" +
                             "\n" +
                             "Options:\n" +
                             "  --include-internal : Include internal APIs in the output\n" +
