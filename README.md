@@ -45,5 +45,8 @@ Run TCApi2Postman: Use the command below to convert your API docs to a Postman c
 
 Import to Postman: Load the generated .json file into Postman, and you’re good to go!
 
+<img width="1167" height="283" alt="image" src="https://github.com/user-attachments/assets/fbbcc01e-02d3-40bb-a0a8-e69b029b8ae4" />
 
+<img width="673" height="36" alt="image" src="https://github.com/user-attachments/assets/2389e358-844e-4249-be6c-e90ff279eab3" />
 
+<img width="1830" height="1001" alt="image" src="https://github.com/user-attachments/assets/9709650a-ee8e-4b00-90e3-3bd514342f43" />
