@@ -27,7 +27,7 @@ Developers, QA engineers, Presales, etc. working with Teamcenter REST APIs
 
 **Prerequisites:** Make sure you have Java (**Azul Zulu: 21.0.8+9**) installed.
 
-**Grab your input**: You’ll need the structure.js file from your Teamcenter setup (e.g., ...\aws2\stage\out\soa\api\structure.js):
+**Grab your input**: You’ll need the structure.js file from your Teamcenter setup (AWC server layer!) (e.g., ...\aws2\stage\out\soa\api\structure.js):
 
 - cd ...aws2\stage
 - initenv
