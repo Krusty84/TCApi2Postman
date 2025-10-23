@@ -25,19 +25,47 @@ Developers, QA engineers, Presales, etc. working with Teamcenter REST APIs
 
 ## 💊 Instructions
 
-**Prerequisites:** Make sure you have Java (**Azul Zulu: 21.0.8+9**) installed.
+### Prerequisites
 
-**Grab your input**: You’ll need the structure.js file from your Teamcenter setup (AWC layer!) (e.g., ...\aws2\stage\out\soa\api\structure.js):
+- **Java 17 or later** (e.g., Azul Zulu, OpenJDK, or Oracle JDK)
+  - Verify installation: `java -version`
+  - Set `JAVA_HOME` environment variable to your JDK installation directory
 
-- cd ...aws2\stage
+- **Maven 3.6 or later** (required to build from source)
+  - Download from https://maven.apache.org/download.cgi or use a package manager (e.g., `choco install maven` on Windows with Chocolatey)
+  - Verify installation: `mvn -version`
+
+### Build TCApi2Postman from Source
+
+If you're building from source, follow these steps:
+
+1. Clone or download this repository
+2. Navigate to the project directory
+3. Run the build:
+   ```bash
+   mvn clean package
+   ```
+4. The compiled jar will be in the `target/` directory (named `TCApi2Postman-1.0.0.jar`)
+
+### Get Your Input Data
+
+You'll need the `structure.js` file from your Teamcenter setup (AWC layer):
+
+- cd ...\aws2\stage
 - initenv
 - npm run genSoaApi
-- cd ...aws2\stage\out\soa\api
+- cd ...\aws2\stage\out\soa\api
 
-Run TCApi2Postman: Use the command below to convert your API docs to a Postman collection.  
-**java -jar** **TCApi2Postman** <structure.js> <out.postman_collection.json> [--include-internal] [--config <TCApi2Postman.config>]
+### Run TCApi2Postman
 
-**Example: java -jar TCApi2Postman** C:\Siemens\Teamcenter\13\aws2\stage\out\soa\api\structure.js D:\Temp\TcApi_collection.json --config TCApi2Postman.config
+Use the command below to convert your API docs to a Postman collection:
+
+**java -jar TCApi2Postman-1.0.0.jar** <structure.js> <out.postman_collection.json> [--include-internal] [--config <TCApi2Postman.config>]
+
+**Example:**
+```bash
+java -jar TCApi2Postman-1.0.0.jar C:\Siemens\Teamcenter\13\aws2\stage\out\soa\api\structure.js D:\Temp\TcApi_collection.json --config TCApi2Postman.config
+```
 
 
 **Options:** 
