@@ -49,12 +49,14 @@ If you're building from source, follow these steps:
 
 ### Get Your Input Data
 
-You'll need the `structure.js` file from your Teamcenter setup (AWC layer):
+You'll need the `structure.js` file from your Teamcenter setup (AWC layer). Generate or regenerate it using:
 
 - cd ...\aws2\stage
 - initenv
 - npm run genSoaApi
 - cd ...\aws2\stage\out\soa\api
+
+**Note:** You must regenerate `structure.js` after updating Teamcenter Core or AWC to ensure the API documentation is up-to-date with the latest changes.
 
 ### Run TCApi2Postman
 
