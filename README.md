@@ -1,13 +1,13 @@
 # TCApi2Postman
 
-## 🚀 What is this?
+## What is this?
 
 TCApi2Postman is application that converts auto-generated REST API documentation from Teamcenter into a fully-loaded Postman collection. 
 It doesn’t just spit out a bunch of requests—it packs each method with detailed documentation, ready to roll in Postman. 
 
 --
 
-## 🎯 Features
+## Features
 
 - Transforms Teamcenter REST API documentation (structure.js) into a Postman collection.
 
@@ -19,11 +19,11 @@ It doesn’t just spit out a bunch of requests—it packs each method with detai
 
 - Outputs a clean, ready-to-import .json file for Postman.
 
-## 🧑‍💼 Who is it for?
+## Who is it for?
 
 Developers, QA engineers, Presales, etc. working with Teamcenter REST APIs
 
-## 💊 Instructions
+## Instructions
 
 ### Prerequisites
 
